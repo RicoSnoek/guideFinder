@@ -1,0 +1,202 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.bg-danger, .bg-success {
+	padding: 0 5px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#tourlist li{
+	list-style: none;
+}
+
+body {
+  background-color: #c0392b;
+  font: 1em Helvetica;
+}
+
+#container {
+  width: 840px;
+  margin: 25px auto;
+}
+
+.whysign {
+  float: left;
+  background-color: white;
+  width: 480px;
+  height: 405px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.signup {
+  float: left;
+  width: 300px;
+  height: 405px;
+  /*padding: 59px 20px;*/
+  padding-top: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+}
+.signup form{
+	margin-top: 39px;
+}
+.signup a ,
+.whysign a{
+  color: red;
+}
+[type=text] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+[type=email] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+[type=password] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background-color: #E43A28;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+h1 {
+  color: rgba(0,0,0,.7);
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+p {
+  color: rgba(0,0,0,.6);
+  font-size: 1.2em;
+  margin: 0px 0 10px 0;
+}
+#more {
+	margin-top: 40px;
+}
+
+span {
+  font-size: .75em;
+  background-color: white;
+  padding: 2px 5px;
+  color: rgba(0,0,0,.6);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  margin: 5px;
+}
+
+span:hover {
+  color: #53CACE;
+}
+
+p:nth-of-type(2) {
+  font-size: 1em;
+}
+
+#olifant {
+  text-align: center;
+}
+#useraccept{
+  width: 50%;
+  list-style: none;
+  float: left;
+}
+#touraccept{
+  width: 50%;
+  list-style: none;
+  float: left;
+}
+.subButtons{
+  margin: 0 auto;
+  display: block;
+}
+#login{
+  width:90%;
+  margin:0 auto;  
+  padding: 10px;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+#login:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+#login h1{
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+
+  color:#fff;
+}
+#login p{
+  padding:20px 0;
+  font-weight:300;
+  color:#fff;
+}
+#blok{
+    font-family: open sans, sans-serif;
+    background-color: #e74c3c;
+    width: 800px;
+    margin: 0 auto;
+    height: auto;
+    text-align: justify;
+}
+
+ul{
+  padding: 0px;
+}
+
+#nav{
+  color: #fff;
+  text-align: center;
+}
+#nav a:hover{
+  color: #000;
+}
