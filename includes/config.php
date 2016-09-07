@@ -6,10 +6,10 @@ session_start();
 date_default_timezone_set('Europe/London');
 
 //database credentials
-define('DBHOST','127.0.0.1');
-define('DBUSER','root');
-define('DBPASS','');
-define('DBNAME','guidefinder');
+define('DBHOST','HOST');
+define('DBUSER','USER');
+define('DBPASS','PASS');
+define('DBNAME','NAME');
 
 //application address
 define('DIR','http://ricosnoek.nl/');
